@@ -7,7 +7,7 @@ import { Shoe } from './models/shoe.model';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title: string = "Jimmy's Shoe Shop";
+  title: string = "Jimmy's Shoe Shp";
   description: string = "Here at Jimmy's we have the some of the finest shoes and in fashion sneakers on the market"
   currentTime = new Date();
   month: number = this.currentTime.getMonth()+1;
