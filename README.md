@@ -24,7 +24,9 @@ The Jimmy's shoe store application lets you pick from our many options of shoes 
 1. Navigate to (insert repo here)
 2. Clone the repository:
 3. In the terminal run the command "npm install -g @angular/cli@1.6.5"
-4. 
+4. If that didnt work run "brew upgrade node" in the terminal then retry step 3
+5. Navigate to the project directory and run the command "ng serve"
+6. The application will be available on your local host at (insert local host link here)
 
 #### Use Responsibly
 1. Don't simply copy and paste.
