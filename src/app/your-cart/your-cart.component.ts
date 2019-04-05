@@ -6,8 +6,6 @@ import { Shoe } from '../models/shoe.model';
   styleUrls: ['./your-cart.component.css']
 })
 export class YourCartComponent {
-  @Input() childShoeList: Shoe[];
-  @Output() clickSender = new EventEmitter();
 
 
 }
