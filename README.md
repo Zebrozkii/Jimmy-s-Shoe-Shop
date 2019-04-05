@@ -33,6 +33,7 @@ The Jimmy's shoe shop application lets you pick from our many options of shoes a
 
 ## Built With
 
+
 * Atom (IDE)
 * HTML5
 * CSS
