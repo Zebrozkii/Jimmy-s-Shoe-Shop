@@ -7,9 +7,16 @@
   background:grey;
   color: white;
   font-size: 30px;
+  border: 10px solid rgba(255, 255, 255, 0.5);
 }
 .grid-container{
   display: grid;
   grid-template-columns: 50% 50%;
-
+  background-color: grey;
+  padding: 10px;
+}
+.grid-item{
+  background-color: grey;
+  border: 10px solid rgba(255, 255, 255, 0.5);
+  padding: 10px;
 }
