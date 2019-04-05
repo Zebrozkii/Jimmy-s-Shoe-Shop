@@ -6,6 +6,7 @@ import { Shoe } from '../models/shoe.model';
   styleUrls: ['./nike-shoes.component.css']
 })
 export class NikeShoesComponent {
+  header: string = "Nikes"
   nike: Shoe[] = [
     new Shoe("Jordan",200),
     new Shoe("AirMax",120),
