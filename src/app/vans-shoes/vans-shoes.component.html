@@ -1,4 +1,4 @@
 <h3> {{header}}</h3>
 <ul>
-  <li *ngFor="let currentShoe of vans">{{currentShoe.name}} {{currentShoe.price}}$</li>
+  <li *ngFor="let currentShoe of vans">{{currentShoe.name}} {{currentShoe.price}}$<button (click)="moveToCart(currentShoe)">Add To Cart</button></li>
 </ul>
