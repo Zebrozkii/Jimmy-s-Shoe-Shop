@@ -6,6 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = "Jimmy's Shoe Shop";
-  description = "Here at Jimmy's we have the some of the finest shoes and in fashion sneakers on the market"
+  title: string = "Jimmy's Shoe Shop";
+  description: string = "Here at Jimmy's we have the some of the finest shoes and in fashion sneakers on the market"
+  currentTime = new Date();
+  month: number = this.currentTime.getMonth()+1;
+  day: number = this.currentTime.getDate();
+  year: number = this.currentTime.getFullYear();
 }
