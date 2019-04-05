@@ -8,6 +8,7 @@ import { GucciShoesComponent } from './gucci-shoes/gucci-shoes.component';
 import { YourCartComponent } from './your-cart/your-cart.component';
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
