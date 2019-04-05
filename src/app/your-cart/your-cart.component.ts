@@ -9,7 +9,5 @@ export class YourCartComponent {
   @Input() childShoeList: Shoe[];
   @Output() clickSender = new EventEmitter();
 
-  addToCart(currentShoe: Shoe){
-    this.clickSender.emit(currentShoe);
-  }
+
 }
