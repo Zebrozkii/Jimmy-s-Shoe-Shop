@@ -6,15 +6,18 @@
 ----------
 
 ## Description
-The Jimmy's shoe store application lets you pick from our many options of shoes and brands or even add your own, and see the price of your cart.
+The Jimmy's shoe shop application lets you pick from our many options of shoes and brands or even add your own, and see the price of your cart.
 ## Known Bugs
 
-* No known bugs.
+* Currently really struggling to get things into the car so edit doesnt work.
 
 ## Specifications
-  1. User can pick from the list of shoes hard coded or enter their own.
+  1. User can pick from the list of shoes hard coded.
   2. User can see all shoes in there cart.
-  3.
+  3. Add ability to enter a shoe into the store.
+  4. the cart will show all items you've selected and the total price
+  5. (futurespec) make a account and sign in.
+  6. (futurespec) saves account information.
 
 
 
@@ -27,11 +30,6 @@ The Jimmy's shoe store application lets you pick from our many options of shoes 
 4. If that didnt work run "brew upgrade node" in the terminal then retry step 3
 5. Navigate to the project directory and run the command "ng serve"
 6. The application will be available on your local host at (insert local host link here)
-
-#### Use Responsibly
-1. Don't simply copy and paste.
-2. Breakdown into components to understand them.
-3. Utilize to create your own template that reflects your needs and style.
 
 ## Built With
 
