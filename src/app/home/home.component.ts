@@ -1,16 +1,16 @@
-import { Component } from '@angular/core';
-import { Shoe } from './models/shoe.model';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: 'app-home',
+  templateUrl: './home.component.html',
+  styleUrls: ['./home.component.css']
 })
-export class AppComponent {
+export class HomeComponent{
   title: string = "Jimmy's Shoe Shop";
   description: string = "Here at Jimmy's we have the some of the finest shoes and in fashion sneakers on the market"
   currentTime = new Date();
   month: number = this.currentTime.getMonth()+1;
   day: number = this.currentTime.getDate();
   year: number = this.currentTime.getFullYear();
+
 }

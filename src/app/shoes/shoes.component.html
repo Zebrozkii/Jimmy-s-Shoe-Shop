@@ -1,0 +1,26 @@
+<div class="grid-container">
+<div class="grid-item">
+<h3> {{nikeHeader}}</h3>
+<ul>
+  <li *ngFor="let currentShoe of nike">{{currentShoe.name}} {{currentShoe.price}}$<button (click)="onClick(currentShoe)">Add</button></li>
+</ul>
+</div>
+<div class="grid-item">
+<h3> {{gucciHeader}}</h3>
+<ul>
+  <li *ngFor="let currentShoe of gucci">{{currentShoe.name}} {{currentShoe.price}}$<button (click)="addToCart(currentShoe)">Add</button></li>
+</ul>
+</div>
+<div class="grid-item">
+<h3> {{adidasHeader}}</h3>
+<ul>
+  <li *ngFor="let currentShoe of adidas">{{currentShoe.name}} {{currentShoe.price}}$<button (click)="addToCart(currentShoe)">Add</button></li>
+</ul>
+</div>
+<div class="grid-item">
+<h3> {{vansHeader}}</h3>
+<ul>
+  <li *ngFor="let currentShoe of vans">{{currentShoe.name}} {{currentShoe.price}}$<button (click)="moveToCart(currentShoe)">Add</button></li>
+</ul>
+</div>
+</div>

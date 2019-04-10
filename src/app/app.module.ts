@@ -1,25 +1,22 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
-import { NikeShoesComponent } from './nike-shoes/nike-shoes.component';
-import { AdidasShoesComponent } from './adidas-shoes/adidas-shoes.component';
-import { VansShoesComponent } from './vans-shoes/vans-shoes.component';
-import { GucciShoesComponent } from './gucci-shoes/gucci-shoes.component';
 import { YourCartComponent } from './your-cart/your-cart.component';
-
+import { ShoesComponent } from './shoes/shoes.component';
+import { routing } from './app.routing';
+import { HomeComponent } from './home/home.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    NikeShoesComponent,
-    AdidasShoesComponent,
-    VansShoesComponent,
-    GucciShoesComponent,
-    YourCartComponent
+    YourCartComponent,
+    ShoesComponent,
+    HomeComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    routing
   ],
   providers: [],
   bootstrap: [AppComponent]

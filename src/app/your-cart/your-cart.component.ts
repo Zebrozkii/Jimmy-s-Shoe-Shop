@@ -1,4 +1,4 @@
-import { Component, Input, Output, EventEmitter } from '@angular/core';
+import { Component} from '@angular/core';
 import { Shoe } from '../models/shoe.model';
 @Component({
   selector: 'app-your-cart',
@@ -6,6 +6,6 @@ import { Shoe } from '../models/shoe.model';
   styleUrls: ['./your-cart.component.css']
 })
 export class YourCartComponent {
-
-
+  
+ title: string  = "Your Cart";
 }
