@@ -2,7 +2,7 @@
 <div class="grid-item">
 <h3> {{nikeHeader}}</h3>
 <ul>
-  <li *ngFor="let currentShoe of nike">{{currentShoe.name}} {{currentShoe.price}}$<button (click)="onClick(currentShoe)">Add</button></li>
+  <li *ngFor="let shoe of shoes | nike ">{{shoe.name}} {{shoe.price}}$<button (click)="onClick(currentShoe)">Add</button></li>
 </ul>
 </div>
 <div class="grid-item">
@@ -22,5 +22,8 @@
 <ul>
   <li *ngFor="let currentShoe of vans">{{currentShoe.name}} {{currentShoe.price}}$<button (click)="moveToCart(currentShoe)">Add</button></li>
 </ul>
-</div>
+  </div>
+  <ul>
+    <li *ngFor="let shoe of shoes">{{shoe.name}} {{shoe.brand}}</li>
+  </ul>
 </div>

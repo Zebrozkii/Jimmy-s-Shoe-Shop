@@ -1,8 +1,12 @@
 .color{
   font: white;
 }
+
 img{
   height: 30px;
   width:30px;
-  margin-left:30%;
+}
+
+a{
+  text-decoration: none;
 }
