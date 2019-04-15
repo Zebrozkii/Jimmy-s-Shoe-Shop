@@ -5,8 +5,8 @@
         <img src="https://purepng.com/public/uploads/large/purepng.com-home-iconsymbolsiconsapple-iosiosios-8-iconsios-8-721522596056wkxtr.png" alt="home">
       </a>
     </h2>
-    <ul>
-      <li></li>
+    <ul *ngFor = "let shoe of cart | async">
+      <li>{{shoe.name}} {{shoe.price}}$</li>
     </ul>
   </div>
 </div>
