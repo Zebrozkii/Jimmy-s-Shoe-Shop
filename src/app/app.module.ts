@@ -9,6 +9,10 @@ import { masterFirebaseConfig } from './api-key';
 import { AngularFireModule } from 'angularfire2';
 import { AngularFireDatabaseModule } from 'angularfire2/database';
 import { FilterBrandNikePipe } from './filterbrand.pipe';
+import { FilterBrandGucciPipe } from './filtergucci.pipe';
+import { FilterBrandAdidasPipe}  from './filteradidas.pipe.ts.pipe';
+import { FilterBrandVansPipe } from './filtervans.pipe';
+
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
   authDomain: masterFirebaseConfig.authDomain,
@@ -22,7 +26,10 @@ export const firebaseConfig = {
     YourCartComponent,
     ShoesComponent,
     HomeComponent,
-    FilterBrandNikePipe
+    FilterBrandNikePipe,
+    FilterBrandGucciPipe,
+    FilterBrandAdidasPipe,
+    FilterBrandVansPipe
   ],
   imports: [
     BrowserModule,

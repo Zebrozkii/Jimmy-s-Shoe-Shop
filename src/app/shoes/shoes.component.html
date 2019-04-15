@@ -2,28 +2,25 @@
 <div class="grid-item">
 <h3> {{nikeHeader}}</h3>
 <ul>
-  <li *ngFor="let shoe of shoes | nike ">{{shoe.name}} {{shoe.price}}$<button (click)="onClick(currentShoe)">Add</button></li>
+  <li *ngFor="let shoe of shoes | nike ">{{shoe.name}} {{shoe.price}}$<button (click)="addToCart(shoe)">Add</button></li>
 </ul>
 </div>
 <div class="grid-item">
 <h3> {{gucciHeader}}</h3>
 <ul>
-  <li *ngFor="let currentShoe of gucci">{{currentShoe.name}} {{currentShoe.price}}$<button (click)="addToCart(currentShoe)">Add</button></li>
+  <li *ngFor="let shoe of shoes | gucci ">{{shoe.name}} {{shoe.price}}$<button (click)="addToCart(shoe)">Add</button></li>
 </ul>
 </div>
 <div class="grid-item">
 <h3> {{adidasHeader}}</h3>
 <ul>
-  <li *ngFor="let currentShoe of adidas">{{currentShoe.name}} {{currentShoe.price}}$<button (click)="addToCart(currentShoe)">Add</button></li>
+  <li *ngFor="let shoe of shoes | adidas ">{{shoe.name}} {{shoe.price}}$<button (click)="addToCart(currentShoe)">Add</button></li>
 </ul>
 </div>
 <div class="grid-item">
 <h3> {{vansHeader}}</h3>
 <ul>
-  <li *ngFor="let currentShoe of vans">{{currentShoe.name}} {{currentShoe.price}}$<button (click)="moveToCart(currentShoe)">Add</button></li>
+  <li *ngFor="let shoe of shoes | vans ">{{shoe.name}} {{shoe.price}}$<button (click)="moveToCart(currentShoe)">Add</button></li>
 </ul>
   </div>
-  <ul>
-    <li *ngFor="let shoe of shoes">{{shoe.name}} {{shoe.brand}}</li>
-  </ul>
 </div>
