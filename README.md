@@ -16,6 +16,7 @@ The Jimmy's shoe shop application lets you pick from our many options of shoes a
   2. User can see all shoes in there cart.
   3.  the cart will show all items you've selected and the total price.
   4. (futurespec) make a account and sign in.
+  5. (futurespec) able to remove shoes from cart.
 
 ### Setup Instructions
   * Clone repository
