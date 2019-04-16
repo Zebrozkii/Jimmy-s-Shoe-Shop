@@ -1,38 +1,33 @@
 ## | <u>**Jimmy's Shoe Shop**</u> |
 
 #### By Jimmy Zebroski
-###### Initiated April 5th, 2019.
+###### Initiated April 16th, 2019.
 
 ----------
 
 ## Description
-The Jimmy's shoe shop application lets you pick from our many options of shoes and brands or even add your own, and see the price of your cart.
-## Known Bugs
+The Jimmy's shoe shop application lets you pick from our many options of shoes and brands, and see the price of each shoe in your cart.
 
-* Currently really struggling to get things into the car so edit doesnt work.
+## Known Bugs
+* Zero known bugs.
 
 ## Specifications
   1. User can pick from the list of shoes hard coded.
   2. User can see all shoes in there cart.
-  3. Add ability to enter a shoe into the store.
-  4. the cart will show all items you've selected and the total price
-  5. (futurespec) make a account and sign in.
-  6. (futurespec) saves account information.
+  3.  the cart will show all items you've selected and the total price.
+  4. (futurespec) make a account and sign in.
 
-
-
-## Setup and Use
-
-#### Download Repo
-1. Navigate to (insert repo here)
-2. Clone the repository:
-3. In the terminal run the command "npm install -g @angular/cli@1.6.5"
-4. If that didnt work run "brew upgrade node" in the terminal then retry step 3
-5. Navigate to the project directory and run the command "ng serve"
-6. The application will be available on your local host at (insert local host link here)
+### Setup Instructions
+  * Clone repository
+  * Add it to your specified file path using 'git clone "repository link"'
+  * > Navigate to the root directory in the terminal
+  * > Run the command "npm install" to install all dependancies
+  * > Create your own api-keys.ts file in the app folder and populate it with your own firebase credentials.
+  * > Input ng build into the terminal.
+  * > Run the command "ng serve --open" to open the project in your browswer.
+  * > Link to FireBase deployment https://jimmy-s-shoe-shop.firebaseapp.com/
 
 ## Built With
-
 
 * Atom (IDE)
 * HTML5
